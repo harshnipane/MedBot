@@ -28,25 +28,20 @@ MedBot - Healthcare Chatbot
  <h2>Dependencies</h2>
     <ul>
         <li>Python (>= 3.6)</li>
+        <li>Scikit-learn</li>
         <li>TensorFlow</li>
         <li>NLTK</li>
         <li>Keras</li>
-        <li>Pandas</li>
+        <li>Pandas</li>      
         <li>Numpy</li>
     </ul>
-
- <h2>Installation</h2>
-    <p>Clone the repository:</p>
-    <pre><code>git clone https://github.com/Suyogwanjari29/Chat_Bot.git</code></pre>
-    <p>Install dependencies:</p>
-    <pre><code>pip install -r requirements.txt</code></pre>
 
  <h2>Contributing</h2>
     <p>Contributions are welcome! Feel free to open an issue or submit a pull request.</p>
 
 <h2>Authors</h2>
-    <p>Developed by: Suyog Wanjari & Team</p>
+    <p>Developed by: Harsh Nipane & Team</p>
 
 </body>
 </html>
-# Chat_Bot
+# MedBot
