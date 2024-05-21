@@ -1,0 +1,187 @@
+{"intents":
+[
+            {
+             "tag":"greetings",
+             "patterns": ["hello","hey","hi | hii | hiii | hiiii | hiiiii | hiiiiii | hiiiiiii | hiiiiiiii | hiiiiiiiii | hlo | hlw","good day","greetings","what's up?","how is it going"],
+             "responses":["hello, how are you?","hey!, how are you?","hey, how are you?", "what can i do for you?","greetings, what can i do for you?"]
+            },
+
+            {
+             "tag":"good",
+             "patterns": ["fine","good","perfect"],
+             "responses":["nice to hear, you can text me related health issue :)"]
+            },
+
+            {
+             "tag":"goodbye",
+             "patterns": ["cya","see you later","goodbye", "godby","have a good day","bye","cao","see ya","thanks","thankyou","thank you","sure"    ,"will text you"],
+             "responses":["have a nice day","goodbye"]
+            },
+
+            {
+             "tag":"age",
+             "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+             "responses":["i get reborn after every compilation","hey!","my owners are averagely 22 years!"]
+            },
+
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+             "responses":["you can call me medbot!","i am medbot!","i am medbot your medical assistant"]
+            },
+
+    
+             {
+                "tag":"fever" ,
+                "patterns" : ["sweating",
+                        "chills and shivering",
+                        "headache",
+                        "muscle aches",
+                        "loss of appetite",
+                        "irritability",
+                        "dehydration",
+                        "general weakness"],
+                "responses" :["it seems that you are suffering from fever"]
+
+            },
+           
+             {
+                "tag":"malaria" ,
+                "patterns" : ["shaking chills", 
+                            "headache",
+                            "muscle aches",
+                            "tiredness", 
+                            "nausea",
+                            "vomiting",
+                            "diarrhea"],
+                "responses" :["it seems that you are suffering from malaria"]
+
+            },
+            {
+                "tag":"dengue" ,
+                "patterns" : ["nausea", 
+                            "vomiting",
+                            "rash",
+                            "aches and pains (eye pain, typically behind the eyes, muscle, joint, or bone pain)"],
+                "responses" :["it seems that you are suffering from dengue"]
+
+            },
+          
+          
+            {
+                "tag":"cold",
+                "patterns" : ["sneezing",
+                              "stuffy nose",
+                              "runny nose",
+                              "sore throat",
+                              "coughing",
+                              "mucus dripping down your throat (post-nasal drip)",
+                              "watery eyes"],
+                "responses" :["it seems that you are suffering from cold"]
+
+            },
+          
+          
+            {
+                "tag":"migrane" ,
+                "patterns" : ["constipation",
+                                "mood changes, from depression to euphoria",
+                                "food cravings",
+                                "neck stiffness",
+                                "increased urination",
+                                "fluid retention",
+                                "frequent yawning"],
+                "responses" :["it seems that you are suffering from migrane"]
+
+            },
+           
+            
+		    {
+			"tag":"consult doctor",
+			"patterns":["bleeding while coughing","fracture"],
+			"responses":["it seems serious, must visit doctor!!"]
+		  },
+
+		{
+			"tag":"blank",
+			"patterns":[""," ","123456"],
+			"responses":["sorry i don't understand?"]
+		},
+
+		{
+			"tag":"random",
+			"patterns":["i am not feeling well","not feeling well","not well","unwell","feeling diffrent","feeling diseased","ill","feeling ill","not fine","health issue"],
+			"responses":["please try to tell me in detail or you can specify me \tsymptoms"]
+		},
+
+       
+
+           {
+           "tag" : "fever prevention",
+            "patterns":["medicines for fever","what medicines can i buy to help me with my fever?","tell me some prevention method from fever ","what should i eat or drink if i am suffering from fever?","how can i keep from getting a fever?"],
+            "responses":["medicines you can consume \n\tparacetamol 650 mg"]
+           },
+
+          
+
+           {
+           "tag" : "malaria prevention",
+            "patterns":["medicines for malaria","what medicines can i buy to help me with my malaria?","tell me some prevention method from malaria","what should i eat or drink if i am suffering from malaria?","how can i keep from getting a malaria?"],
+            "responses":["medicines you can consume \n\tchloroquine 500 mg od \n\tprimaquine 15 mg od \n\ttetracycline 500n mg \n\tatovaquone 250 mg + proguanil 100 mg od"]
+           },
+
+           {
+           "tag" : "dengue prevention",
+            "patterns":["medicines for dengue","what medicines can i buy to help me with my dengue?","tell me some prevention method from dengue","what should i eat or drink if i am suffering from dengue?","how can i keep from getting a dengue?"],
+            "responses":["medicines you can consume \n\tacetaminophen 500 mg bd \n\tparacetamol 650 mg bd \n\tmonocef 1 gm iv od \n\trantac iv od \n\thydration therapy"]
+           },
+
+          
+           {
+           "tag" : "cold prevention",
+            "patterns":["medicines for cold","medicines for cold","what medicines can i buy to help me with my cold?","tell me some prevention method from cold","what should i eat or drink if i am suffering from cold?","how can i keep from getting a cold?"],
+            "responses":["medicines you can consume \n\tcetrizine 10 mg bd \n\tphenylephrine 10 mg \n\tparacetamol 650 mg"]
+           },
+
+          
+           
+           {
+           "tag" : "migrane prevention",
+            "patterns":["what medicines can i buy to help me with my migrane?","tell me some prevention method from migrane","what should i eat or drink if i am suffering from migrane?","how can i keep from getting a migrane?"],
+            "responses":["medicines you can consume \n\talmotriptan 10 mg od \n\tparacetamol 500 mg bd \n\taspirin 325 mg od \n\tibuprofen 200 mg bd \n\trizatriptan 30 mg od"]
+           },
+           
+
+            {
+             "tag":"consultation",
+             "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation","whom should i consult"],
+             "responses":["you can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+            },
+             {
+             "tag" : "fever info",
+             "patterns":["information fever", "what is fever", "tell me fever","fever"],
+            "responses":["Fever is a common medical condition characterized by an increase in body temperature above the normal range of 36.5-37.5°C.\nThe symptoms of fever may include a rise in body temperature, sweating, shivering, headache, muscle aches, and fatigue.\nFever is usually caused by an infection, but it can also be a symptom of other medical conditions, such as inflammatory diseases, autoimmune disorders, or cancers.\nIt is important to monitor fever and seek medical attention if it persists for more than a few days or if it is accompanied by other symptoms, such as difficulty breathing, chest pain, confusion, or seizures."]
+           },
+           {
+                "tag": "malaria info",
+                "patterns":["information malaria", "what is malaria", "tell me malaria","malaria"],
+                "responses":["Malaria is a life-threatening disease caused by a parasite called Plasmodium, which is transmitted to humans through the bite of infected mosquitoes.\n The symptoms of malaria may include fever, chills, headache, muscle aches, fatigue, and nausea.\nMalaria can cause severe complications, such as anemia, kidney failure, seizures, and coma, and it can be fatal if left untreated.\nPrevention measures against malaria include the use of mosquito nets, insect repellents, and prophylactic medication for travelers to areas with a high risk of transmission."]
+           },
+           {
+                "tag":"dengue info",
+                "patterns":["information dengue", "what is dengue", "tell me dengue","dengue"],
+                "responses":["Dengue is a viral disease spread by mosquitoes, primarily in tropical and subtropical regions.\nSymptoms include high fever, severe headache, joint and muscle pain, fatigue, and a rash.\nIn some cases, dengue can progress to a severe form of the disease, which can cause bleeding, organ failure, and even death.\nPrevention includes reducing mosquito breeding sites, using mosquito repellent, wearing protective clothing, and using mosquito nets to avoid mosquito bites."]
+           },
+            {
+                "tag": "cold info",
+                "patterns":["information cold", "what is cold", "tell me cold","cold"],
+                "responses":["The common cold is a viral infection of the upper respiratory tract.\nSymptoms include a runny or stuffy nose, sore throat, cough, sneezing, and sometimes a low-grade fever.\nIt is spread through contact with infected respiratory secretions, such as by coughing or sneezing.\nMost people recover from a cold within a week or two without any specific treatment, but rest and fluids can help relieve symptoms.\nPrevention includes washing hands frequently, avoiding close contact with people who are sick, and covering the mouth and nose when coughing or sneezing."]
+           },
+           {
+                "tag": "migrane info",
+                "patterns":["information migrane", "what is migrane", "tell me migrane","migrane"],
+                "responses":["Migraine is a neurological condition that causes recurring headaches that can be moderate to severe in intensity.\n symptoms may include fatigue, mood changes, and difficulty concentrating. Migraine headaches can last from a few hours to several days and may be triggered by various factors such as stress, certain foods, or hormonal changes."]
+           }
+            
+]}
+        
