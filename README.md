@@ -10,7 +10,9 @@
     <p>Welcome to MedBot, a simple health chatbot project developed using Python and TensorFlow.</p>
 
 <h2>Project Overview</h2>
-    <p>This project implements a chatbot that assists users with health-related queries. It is based on retrieval-based natural language processing (NLP) using Python's NLTK toolkit.</p>
+    <p>Interactive Healthcare Chatbot that delivers accurate health information, recommendations, and assistance to users. Utilized NLP techniques to understand user intents and generate
+relevant responses for health-related queries and tkinter for user-friendly interface.
+Leveraged an ANN-based sequential model to train the chatBot on medical data, enhancing its ability to recognize patterns in user inputs and provide accurate and personalized insights.</p>
 
 <h2>Features</h2>
     <ul>
