@@ -7,7 +7,7 @@
 <body>
 
 <h1>MedBot - Health Chatbot</h1>
-    <p>Welcome to MedBot, a simple health chatbot project developed using Python and TensorFlow.</p>
+    <p>Welcome to MedBot, a simple health Chatbot project developed using Python and TensorFlow.</p>
 
 <h2>Project Overview</h2>
     <p>Interactive Healthcare Chatbot that delivers accurate health information, recommendations, and assistance to users. Utilized NLP techniques to understand user intents and generate
