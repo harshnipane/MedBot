@@ -16,7 +16,7 @@ Leveraged an ANN-based sequential model to train the chatBot on medical data, en
 
 <h2>Features</h2>
     <ul>
-        <li>Greetings: Responds to common greetings like "hello", "hey", etc.</li>
+        <li>Greetings: Responds to common greetings like "hello", "hey", "hii"</li>
         <li>Health Issues: Provides information and suggestions for common health issues like fever, cold, migraine, etc.</li>
         <li>Consultation: Offers guidance on consulting a doctor for health concerns.</li>
         <li>Prevention Methods: Suggests preventive measures for various health conditions.</li>
