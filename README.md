@@ -37,9 +37,7 @@ Leveraged an ANN-based sequential model to train the chatBot on medical data, en
         <li>Numpy</li>
     </ul>
 
- <h2>Screenshots</h2>  
- ![ss1](https://github.com/user-attachments/assets/54cc8d8c-ad87-4821-b044-0e0a31283684)
-![ss2](https://github.com/user-attachments/assets/780d5b7c-a898-4685-8850-4931e3dcc885)
+ 
 
 
  <h2>Contributing</h2>
@@ -51,3 +49,8 @@ Leveraged an ANN-based sequential model to train the chatBot on medical data, en
 </body>
 </html>
 # MedBot
+
+### screenshots  
+ ![ss1](https://github.com/user-attachments/assets/54cc8d8c-ad87-4821-b044-0e0a31283684)
+
+![ss2](https://github.com/user-attachments/assets/780d5b7c-a898-4685-8850-4931e3dcc885)
